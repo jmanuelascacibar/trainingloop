@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  description: "Learning one rep at a time"
+  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  title: "Training Loop"
+  favicon: favicon.png
+  navbar:
+    pinned: true
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+  page-footer:
+    center: "Built with [Quarto](https://quarto.org) · © 2026 Training Loop"
+format:
+  html:
+    theme:
+      flatly
+    css: styles.css
+    code-fold: show
+execute:
+  freeze: auto
+
+
+
